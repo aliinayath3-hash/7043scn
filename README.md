@@ -83,7 +83,7 @@ Key characteristics:
 ## Step 1: Clone Repository
 
 
-git clone https://github.com/USERNAME/REPOSITORY_Name.git
+git clone https://github.com/aliinayath3-hash/7043scn
 cd REPOSITORY
 
 
