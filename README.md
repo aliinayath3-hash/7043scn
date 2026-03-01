@@ -93,7 +93,7 @@ cd REPOSITORY
 pip install tensorflow numpy matplotlib gym asyncio
 
 
----
+
 
 # How to Run Experiments
 
@@ -117,7 +117,7 @@ This script will:
  Generate comparison plots
  Print win-rate comparison summary
 
----
+
 
 # Experimental Setup
 
@@ -138,7 +138,7 @@ Algorithm:
 
 Final epsilon after training: ≈ 0.05
 
----
+
 
 # State Representation (40 Dimensions)
 
@@ -158,7 +158,7 @@ This representation captures:
 
 This improves learning in a delayed, multi-agent setting.
 
----
+
 
 # Reward Strategy (Sparse / Delayed Variant)
 
@@ -173,7 +173,7 @@ Uses only terminal reward:
 
 This represents a purely delayed reward setting.
 
----
+
 
 ## SHAPED Agent
 
@@ -190,7 +190,7 @@ Purpose:
  Accelerate early learning
  Reduce sparse reward difficulty
 
----
+
 
 # Evaluation Metrics
 
@@ -204,7 +204,7 @@ Agents are evaluated using:
 
 Random baseline win rate ≈ 0.25 (4-player game)
 
----
+
 
 # Final Experimental Results
 
@@ -226,7 +226,7 @@ Although both agents remain below the random baseline (0.25), reward shaping imp
 
 This demonstrates that intermediate feedback partially mitigates delayed reward challenges, even in a highly non-stationary multi-agent environment.
 
----
+
 
 # Generated Outputs
 
@@ -280,7 +280,7 @@ comparison_training_positions.png
  Random opponents limit generalisation analysis
  Training time significant on CPU
 
----
+
 
 # Reproducibility
 
